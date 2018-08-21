@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4222A848212AC74000E6AF58 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4222A847212AC74000E6AF58 /* PlayingCard.m */; };
+		4222A84B212AD91500E6AF58 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4222A84A212AD91500E6AF58 /* PlayingCardDeck.m */; };
+		4222A852212AFEB000E6AF58 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4222A851212AFEB000E6AF58 /* CardMatchingGame.m */; };
+		4269AB8C2126ACDA001F964C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269AB8B2126ACDA001F964C /* AppDelegate.m */; };
+		4269AB8F2126ACDA001F964C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269AB8E2126ACDA001F964C /* ViewController.m */; };
+		4269AB922126ACDA001F964C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4269AB902126ACDA001F964C /* Main.storyboard */; };
+		4269AB952126ACDA001F964C /* StanfordCardGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4269AB932126ACDA001F964C /* StanfordCardGame.xcdatamodeld */; };
+		4269AB972126ACDA001F964C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4269AB962126ACDA001F964C /* Assets.xcassets */; };
+		4269AB9A2126ACDA001F964C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4269AB982126ACDA001F964C /* LaunchScreen.storyboard */; };
+		4269AB9D2126ACDB001F964C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269AB9C2126ACDB001F964C /* main.m */; };
+		4269ABA72126AF2E001F964C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABA62126AF2E001F964C /* Card.m */; };
+		4269ABAA212AB33A001F964C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABA9212AB33A001F964C /* Deck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4222A846212AC74000E6AF58 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		4222A847212AC74000E6AF58 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		4222A849212AD91500E6AF58 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		4222A84A212AD91500E6AF58 /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		4222A850212AFEB000E6AF58 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		4222A851212AFEB000E6AF58 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		4269AB872126ACD9001F964C /* StanfordCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4269AB8A2126ACDA001F964C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4269AB8B2126ACDA001F964C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4269AB8D2126ACDA001F964C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4269AB8E2126ACDA001F964C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4269AB912126ACDA001F964C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4269AB942126ACDA001F964C /* StanfordCardGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StanfordCardGame.xcdatamodel; sourceTree = "<group>"; };
+		4269AB962126ACDA001F964C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4269AB992126ACDA001F964C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4269AB9B2126ACDA001F964C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4269AB9C2126ACDB001F964C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4269ABA52126AF2E001F964C /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4269ABA62126AF2E001F964C /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		4269ABA8212AB33A001F964C /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		4269ABA9212AB33A001F964C /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4269AB842126ACD9001F964C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4222A84F212AF9B300E6AF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4222A846212AC74000E6AF58 /* PlayingCard.h */,
+				4222A847212AC74000E6AF58 /* PlayingCard.m */,
+				4269ABA52126AF2E001F964C /* Card.h */,
+				4269ABA62126AF2E001F964C /* Card.m */,
+				4269ABA8212AB33A001F964C /* Deck.h */,
+				4269ABA9212AB33A001F964C /* Deck.m */,
+				4222A849212AD91500E6AF58 /* PlayingCardDeck.h */,
+				4222A84A212AD91500E6AF58 /* PlayingCardDeck.m */,
+				4222A850212AFEB000E6AF58 /* CardMatchingGame.h */,
+				4222A851212AFEB000E6AF58 /* CardMatchingGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4269AB7E2126ACD9001F964C = {
+			isa = PBXGroup;
+			children = (
+				4269AB892126ACD9001F964C /* StanfordCardGame */,
+				4269AB882126ACD9001F964C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4269AB882126ACD9001F964C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4269AB872126ACD9001F964C /* StanfordCardGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4269AB892126ACD9001F964C /* StanfordCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				4222A84F212AF9B300E6AF58 /* Model */,
+				4269AB8A2126ACDA001F964C /* AppDelegate.h */,
+				4269AB8B2126ACDA001F964C /* AppDelegate.m */,
+				4269AB8D2126ACDA001F964C /* ViewController.h */,
+				4269AB8E2126ACDA001F964C /* ViewController.m */,
+				4269AB902126ACDA001F964C /* Main.storyboard */,
+				4269AB962126ACDA001F964C /* Assets.xcassets */,
+				4269AB982126ACDA001F964C /* LaunchScreen.storyboard */,
+				4269AB9B2126ACDA001F964C /* Info.plist */,
+				4269AB9C2126ACDB001F964C /* main.m */,
+				4269AB932126ACDA001F964C /* StanfordCardGame.xcdatamodeld */,
+			);
+			path = StanfordCardGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4269AB862126ACD9001F964C /* StanfordCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4269ABA02126ACDB001F964C /* Build configuration list for PBXNativeTarget "StanfordCardGame" */;
+			buildPhases = (
+				4269AB832126ACD9001F964C /* Sources */,
+				4269AB842126ACD9001F964C /* Frameworks */,
+				4269AB852126ACD9001F964C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StanfordCardGame;
+			productName = StanfordCardGame;
+			productReference = 4269AB872126ACD9001F964C /* StanfordCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4269AB7F2126ACD9001F964C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = utkarsh.sri;
+				TargetAttributes = {
+					4269AB862126ACD9001F964C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4269AB822126ACD9001F964C /* Build configuration list for PBXProject "StanfordCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4269AB7E2126ACD9001F964C;
+			productRefGroup = 4269AB882126ACD9001F964C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4269AB862126ACD9001F964C /* StanfordCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4269AB852126ACD9001F964C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4269AB9A2126ACDA001F964C /* LaunchScreen.storyboard in Resources */,
+				4269AB972126ACDA001F964C /* Assets.xcassets in Resources */,
+				4269AB922126ACDA001F964C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4269AB832126ACD9001F964C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4269ABA72126AF2E001F964C /* Card.m in Sources */,
+				4222A84B212AD91500E6AF58 /* PlayingCardDeck.m in Sources */,
+				4269AB952126ACDA001F964C /* StanfordCardGame.xcdatamodeld in Sources */,
+				4222A852212AFEB000E6AF58 /* CardMatchingGame.m in Sources */,
+				4222A848212AC74000E6AF58 /* PlayingCard.m in Sources */,
+				4269AB8F2126ACDA001F964C /* ViewController.m in Sources */,
+				4269AB9D2126ACDB001F964C /* main.m in Sources */,
+				4269ABAA212AB33A001F964C /* Deck.m in Sources */,
+				4269AB8C2126ACDA001F964C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4269AB902126ACDA001F964C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4269AB912126ACDA001F964C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4269AB982126ACDA001F964C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4269AB992126ACDA001F964C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4269AB9E2126ACDB001F964C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4269AB9F2126ACDB001F964C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4269ABA12126ACDB001F964C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StanfordCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utkarshsri.StanfordCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4269ABA22126ACDB001F964C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StanfordCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utkarshsri.StanfordCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4269AB822126ACD9001F964C /* Build configuration list for PBXProject "StanfordCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4269AB9E2126ACDB001F964C /* Debug */,
+				4269AB9F2126ACDB001F964C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4269ABA02126ACDB001F964C /* Build configuration list for PBXNativeTarget "StanfordCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4269ABA12126ACDB001F964C /* Debug */,
+				4269ABA22126ACDB001F964C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4269AB932126ACDA001F964C /* StanfordCardGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4269AB942126ACDA001F964C /* StanfordCardGame.xcdatamodel */,
+			);
+			currentVersion = 4269AB942126ACDA001F964C /* StanfordCardGame.xcdatamodel */;
+			path = StanfordCardGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4269AB7F2126ACD9001F964C /* Project object */;
+}
