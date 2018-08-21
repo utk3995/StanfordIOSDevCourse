@@ -64,6 +64,13 @@ static const int COST_TO_CHOOSE = 2;
     } else if ([self.gamemode isEqualToString:@"hard"] && [self.chosenCards count] == 2){
         matchScore = [card match:_chosenCards];
     }
+    
+    for (Card *ccard in _chosenCards) {
+        NSLog(@"%@", ccard.contents);
+    }
+    NSLog(@"\n");
+    NSLog(@"%@", [NSString stringWithFormat:@"Score : %d",matchScore]);
+    
     if (matchScore > 0) {
         self.score += matchScore;
         card.matched = YES;
@@ -78,9 +85,6 @@ static const int COST_TO_CHOOSE = 2;
         [self.chosenCards addObject:card];
     } else {
         [self.chosenCards addObject:card];
-    }
-    for (Card *ccard in _chosenCards) {
-        NSLog(@"%@", ccard.contents);
     }
 }
 

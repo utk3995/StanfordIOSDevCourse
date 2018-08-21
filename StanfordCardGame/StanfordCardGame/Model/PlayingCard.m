@@ -14,13 +14,11 @@
 
 -(int)match:(NSArray *)otherCards {
     int score = 0;
-    if ([otherCards count] == 1){
-        for (PlayingCard *otherCard in otherCards) {
-            if ([self.suit isEqualToString:otherCard.suit])
-                score += 10;
-            else if (self.rank == otherCard.rank)
-                score += 20;
-        }
+    for (PlayingCard *otherCard in otherCards) {
+        if ([self.suit isEqualToString:otherCard.suit])
+            score += 10;
+        else if (self.rank == otherCard.rank)
+            score += 20;
     }
     return score;
 }
